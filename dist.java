@@ -2,7 +2,7 @@ import java.text.*;
 import java.util.Arrays;
 import java.io.*;
 import java.nio.file.*;
-public class dist{
+public class dist {
     public static void main(String[] args) throws Exception{
         String input = "";
         File f = new File(System.getProperty("user.dir")+"\\input.txt");
