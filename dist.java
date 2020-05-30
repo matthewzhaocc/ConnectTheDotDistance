@@ -8,8 +8,8 @@ public class dist {
         File f = new File(System.getProperty("user.dir")+"\\input.txt");
         File res = new File(System.getProperty("user.dir")+"\\res.txt");
         try{
-        res.createNewFile();
-       input = new String(Files.readAllBytes(Paths.get(f.getAbsolutePath())));}
+        	res.createNewFile();
+       		input = new String(Files.readAllBytes(Paths.get(f.getAbsolutePath())));}
         catch(Exception e){}
         int index = 0;
         String current = "";
